@@ -1,7 +1,10 @@
 # Th-VGG16: A Thermal Face Feature Extraction Model (Finetuned VGG-16 + SuperPixel)
 
-![Superpixel implementation technique result](image/superpixel.png)
-
+<p align="center">
+  <img src="image/superpixel.png" alt="Superpixel implementation technique result">
+  <br>
+  <em>First-hand Superpixel technique face extraction implementation result</em>
+</p>
 ## Introduction
 
 Th-VGG16 is as a result of the fine-tuning of the VGG16 model using transfer learning techniques for the thermal image dataset from the Terravic Thermal Image Dataset [Terravic Facial IR Database](http://vcipl-okstate.org/pbvs/bench/Data/04/download.html) to train and validate the enhanced feature extraction capabilities. It incorporates the fine-tuning and the superpixel technique as described in the research paper [Human Thermal Face Extraction Based on SuperPixel Technique](https://www.researchgate.net/publication/283724229_Human_Thermal_Face_Extraction_Based_on_SuperPixel_Technique) to extract face feature embeddings from thermal image data and compare recognition rates with new images. This project implements a combination of center and contrastive loss functions to build the model.
